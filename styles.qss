@@ -1,0 +1,49 @@
+MainWindow {
+    background-color: white;
+}
+
+QLabel {
+    color: #1B2D45;
+    font-size: 48px;
+}
+
+QComboBox {
+    background-color: #F5F5F5;
+    color: #1B2D45;
+    font-size: 28px;
+}
+
+#calculate_button {
+    background-color: #1B2D45;
+    color: white;
+    font-size: 36px;
+    border-radius: 5px;
+}
+
+#calculate_button:hover {
+    background-color: #36465B;
+}
+
+#reset_button {
+    border: 1px solid #1B2D45;
+    color: #1B2D45;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#reset_button:hover {
+    border: 1px solid #36465B;
+    color: white;
+    background-color: #36465B;
+}
+
+QRadioButton {
+    color: #1B2D45;
+    font-size: 28px;
+}
+
+QRadioButton::indicator {
+    width: 30px;
+    height: 30px;
+}
